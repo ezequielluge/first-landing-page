@@ -324,6 +324,17 @@ header {
         display: none;
     }
 
+    .hero-action-buttons {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .hero-action-buttons a {
+        margin: 0;
+    }
+    .hero-action-buttons a:first-child {
+        margin: 0 30px;
+    }
+
     .hero-img {
         display: flex;
         margin: 0;
